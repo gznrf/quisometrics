@@ -1,0 +1,1 @@
+ /Users/gznrf/Documents/ITПланета/quisometrics/mobile_app/.dart_tool/flutter_build/a6ff53b87dd02f84146af7d8cc5f080e/native_assets.yaml: 

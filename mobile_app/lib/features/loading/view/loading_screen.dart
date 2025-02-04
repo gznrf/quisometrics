@@ -16,7 +16,7 @@ class _LoadingScreenState extends State<LoadingScreen> with SingleTickerProvider
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     
-    Future.delayed(Duration(seconds: 60), () {
+    Future.delayed(Duration(seconds: 3), () {
       //Пользователь не должен возвразаться на экран загрузки
       Navigator.of(context).pushReplacementNamed('/home');
     });
