@@ -8,7 +8,7 @@ class ToLoginLink extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: EdgeInsets.only(right: 26, top:5),
+          margin: EdgeInsets.only(right: 30, top:10),
           child: Row(
             children: [
               Text(

@@ -7,15 +7,17 @@ class RegisterButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        TextButton(
-            onPressed: () {},
-            style: ButtonStyle(
-            ),
-          child: Text(
-              'asdasdadadsadas',
-            style: TextStyle(
-              fontSize: 40
-            ),
+        Container(
+          margin: EdgeInsets.only(top: 10),
+          width: 319,
+          height: 67,
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.all(Radius.circular(20)),
+          ),
+          child: TextButton(
+              onPressed: () {},
+              child: Text('Зарегестрироваться', style: TextStyle(color: Color.fromRGBO(79, 77, 77, 1), fontSize: 24, fontWeight: FontWeight.bold),)
           ),
         ),
       ],
