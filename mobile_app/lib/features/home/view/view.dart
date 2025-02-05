@@ -8,7 +8,25 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Container(
         alignment: Alignment.center,
-        child: Text('Домашний экран', style: TextStyle(fontSize: 34),),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Домашний экран', style: TextStyle(fontSize: 34),),
+            TextButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, '/registration');
+                },
+                child: Text('Registration', style: TextStyle(fontSize: 34),)
+            ),
+            TextButton(
+                onPressed: (){
+                  Navigator.pushNamed(context, '/login');
+                },
+                child: Text('Login', style: TextStyle(fontSize: 34),)
+            ),
+
+          ],
+        ),
       ),
     );
   }
