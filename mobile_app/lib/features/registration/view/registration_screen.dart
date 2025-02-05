@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/features/registration/widgets/register_button.dart';
 import 'package:mobile_app/features/registration/widgets/widgets.dart';
 
 class RegistrationScreen extends StatefulWidget {
@@ -16,28 +17,32 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
         frame: MainFrame(
           frameElements: [
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [AvatarInput(), UploadPhotoButton(), RemovePhotoButton(),],
             ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [EmailInput()],
             ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [NameInput()],
             ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [PasswordInput()],
             ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [PasswordConfirmationInput()],
             ),
             Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [ToLoginLink()],
             ),
             Row(
-              children: [],
-            ),
-            Row(
-              children: [],
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [RegisterButton()],
             ),
           ],
         ),
