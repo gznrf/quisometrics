@@ -15,9 +15,30 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
       body: Background(
         frame: MainFrame(
           frameElements: [
-            Text('asd'),
-            Text('asd'),
-            Text('asd'),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
+            Row(
+              children: [],
+            ),
           ],
         ),
       ),

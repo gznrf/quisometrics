@@ -1,2 +1,10 @@
 export 'background.dart';
 export 'main_frame.dart';
+export 'avatar_input.dart';
+export 'email_input.dart';
+export 'name_input.dart';
+export 'password_confirmation_input.dart';
+export 'password_input.dart';
+export 'remove_photo_button.dart';
+export 'to_login_link.dart';
+export 'upload_photo_button.dart';
