@@ -1,4 +1,4 @@
-#Wed Feb 05 18:51:45 MSK 2025
+#Thu Feb 06 20:12:36 MSK 2025
 base.0=/Users/gznrf/Documents/ITПланета/quisometrics/mobile_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/gznrf/Documents/ITПланета/quisometrics/mobile_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/Users/gznrf/Documents/ITПланета/quisometrics/mobile_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex

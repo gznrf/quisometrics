@@ -8,10 +8,10 @@ class AvatarInput extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: EdgeInsets.only(left: 30),
+          margin: EdgeInsets.only(),
           alignment: Alignment.center,
-          width: 109,
-          height: 109,
+          width: 187,
+          height: 187,
           decoration: BoxDecoration(
             color: Colors.white,
             borderRadius: BorderRadius.circular(90),

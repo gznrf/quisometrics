@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class PasswordInput extends StatelessWidget {
-  const PasswordInput({super.key});
+  const PasswordInput({super.key, required this.controller});
+
+  final TextEditingController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +20,10 @@ class PasswordInput extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
           child: TextField(
+            controller: controller,
+            obscureText: true,
+            enableSuggestions: false,
+            autocorrect: false,
             cursorColor: Color.fromRGBO(184, 160, 255, 1),
             style: TextStyle(
               fontSize: 22,
@@ -25,7 +31,7 @@ class PasswordInput extends StatelessWidget {
             ),
             decoration: InputDecoration(
               border: InputBorder.none,
-              hintText: "Ваш почта",
+              hintText: "Ваш пароль",
               hintStyle: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.w200,

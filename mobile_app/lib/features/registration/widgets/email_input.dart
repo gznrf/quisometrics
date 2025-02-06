@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class EmailInput extends StatelessWidget {
-  const EmailInput({super.key});
+  const EmailInput({super.key, required this.controller});
+
+  final TextEditingController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -18,6 +20,7 @@ class EmailInput extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(20)),
           ),
           child: TextField(
+            controller: controller,
             cursorColor: Color.fromRGBO(184, 160, 255, 1),
               style: TextStyle(
                 fontSize: 22,

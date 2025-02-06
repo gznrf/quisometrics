@@ -20,6 +20,9 @@ class ToLoginLink extends StatelessWidget {
               ),
               SizedBox(width: 7,),
               InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, '/login');
+                },
                 child: Text(
                   'Войти',
                   style: TextStyle(

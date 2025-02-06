@@ -13,7 +13,7 @@ class MainFrame extends StatelessWidget {
     return Container(
       alignment: Alignment.center,
       width: 376,
-      height: 607,
+      height: 444,
       decoration: BoxDecoration(
           color: Color.fromRGBO(184, 160, 255, 1),
         borderRadius: BorderRadius.all(Radius.circular(20)),

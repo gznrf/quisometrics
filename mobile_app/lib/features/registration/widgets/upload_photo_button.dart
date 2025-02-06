@@ -6,15 +6,15 @@ class UploadPhotoButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.end,
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Container(
-          margin: EdgeInsets.only(top: 30, left: 18),
-          width: 85,
-          height: 69,
+          margin: EdgeInsets.only(top: 150, left: 150),
+          width: 60,
+          height: 50,
           decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.all(Radius.circular(20))
+              color: Color.fromRGBO(234, 234, 234, 1),
+              borderRadius: BorderRadius.all(Radius.circular(15))
           ),
           child: Image.asset('assets/icons/upload.png'),
         ),
