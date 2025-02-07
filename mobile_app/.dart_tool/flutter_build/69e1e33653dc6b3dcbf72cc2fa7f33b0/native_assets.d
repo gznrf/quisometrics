@@ -1,0 +1,1 @@
+ D:\\needing\ Programs\\ProjectOnFigma\\mobile_app\\.dart_tool\\flutter_build\\69e1e33653dc6b3dcbf72cc2fa7f33b0\\native_assets.yaml: 
