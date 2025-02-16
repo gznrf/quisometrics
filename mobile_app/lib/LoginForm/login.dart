@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '';
 
 void main() {
   runApp(MyApp());
@@ -18,101 +17,102 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[200],
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Sun and clouds
-            Stack(
-              alignment: Alignment.center,
-              children: [
-                Container(
-                  width: 100,
-                  height: 100,
-                  decoration: BoxDecoration(
-                    color: Colors.yellow,
-                    shape: BoxShape.circle,
-                  ),
-                ),
-                Positioned(
-                  left: -20,
-                  top: -20,
-                  child: Icon(
-                    Icons.cloud,
-                    size: 50,
-                    color: Colors.white,
-                  ),
-                ),
-                Positioned(
-                  right: -20,
-                  top: -20,
-                  child: Icon(
-                    Icons.cloud,
-                    size: 50,
-                    color: Colors.white,
-                  ),
-                ),
-              ],
-            ),
-            SizedBox(height: 50),
-            // Email field
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
-              child: TextField(
-                decoration: InputDecoration(
-                  labelText: 'Почта',
-                  fillColor: Colors.white,
-                  filled: true,
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-              ),
-            ),
-            SizedBox(height: 20),
-            // Password field
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 40),
-              child: TextField(
-                decoration: InputDecoration(
-                  labelText: 'Пароль',
-                  fillColor: Colors.white,
-                  filled: true,
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                ),
-                obscureText: true,
-              ),
-            ),
-            SizedBox(height: 20),
-            // No account and create account
-            Row(
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          // Background image
+          Image.asset(
+            'lib/LoginForm/img.png', // Replace with your image path
+            fit: BoxFit.cover,
+          ),
+          Center(
+            child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Нет аккаунта? '),
-                TextButton(
-                  onPressed: () {
-                    // Handle create account
-                  },
-                  child: Text('Создать аккаунт'),
+
+                SizedBox(height: 50),
+                // Ввод почты
+                Container(
+                  width: 319,
+                  height: 67,
+                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: Colors.purple, width: 2),
+                  ),
+                  child: Center(
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Почта',
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(height: 20),
+                // Ввод пароля
+                Container(
+                  width: 319,
+                  height: 67,
+                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(color: Colors.purple, width: 2),
+                  ),
+                  child: Center(
+                    child: TextField(
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Пароль',
+                      ),
+                      obscureText: true,
+                    ),
+                  ),
+                ),
+                Container(
+                  width: 200,
+                  height: 67,
+                  margin: EdgeInsets.only(top: 20),
+                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      // переход на главный экран
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.white,
+
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10), // Match the container's border radius
+                      ),
+                      elevation: 0, // Remove shadow
+                      padding: EdgeInsets.zero, // Remove default padding
+                    ),
+                    child: Text(
+                      'Войти',
+                    ),
+                  ),
+                ),
+
+                SizedBox(height: 20),
+                // Нет аккаунта и Создать аккаунт
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('Нет аккаунта? '),
+                    TextButton(
+                      onPressed: () {
+                        // тут надо реализовать переход на создание аккаунта
+                      },
+                      child: Text('Создать аккаунт'),
+                    ),
+                  ],
                 ),
               ],
             ),
-            Spacer(),
-            // Bottom illustration
-            Container(
-              height: 150,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: AssetImage('assets/bottom_illustration.png'),
-                  fit: BoxFit.cover,
-                ),
-              ),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
