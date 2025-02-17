@@ -1,26 +1,38 @@
 [
     {
-        "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "bitBiters.mgimo.mobile_app-main-21:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "bitBiters.mgimo.mobile_app-main-21:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/drawable_splashscreen.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/drawable/splashscreen.png"
+    },
+    {
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/drawable-v21_splashscreen.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/drawable-v21/splashscreen.png"
+    },
+    {
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/drawable-v21_launch_background.xml.flat",
         "source": "bitBiters.mgimo.mobile_app-main-21:/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "bitBiters.mgimo.mobile_app-main-21:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/drawable-v21_launch_background.xml.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/drawable-v21/launch_background.xml"
     },
     {
-        "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "bitBiters.mgimo.mobile_app-main-21:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "bitBiters.mgimo.mobile_app-main-21:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/gznrf/.gradle/daemon/8.3/bitBiters.mgimo.mobile_app-main-21:/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

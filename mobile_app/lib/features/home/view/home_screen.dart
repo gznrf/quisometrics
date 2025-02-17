@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/features/screen_bar/view/screen_bar.dart';
+import '/theme/colors.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -10,6 +12,15 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreen extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: AppColors.deepBlue,
+      bottomNavigationBar: ScreenBar(
+        isShop: false,
+        isHome: true,
+        isLeague: false,
+        isProfile: false,
+        isSettings: false,
+      ),
+    );
   }
 }
