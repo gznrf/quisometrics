@@ -18,7 +18,7 @@ class _LoadingScreenState extends State<LoadingScreen> with SingleTickerProvider
     
     Future.delayed(Duration(seconds: 3), () {
       //Пользователь не должен возвразаться на экран загрузки
-      Navigator.of(context).pushReplacementNamed('/home');
+      Navigator.of(context).pushReplacementNamed('/crossroad');
     });
   }
 
